@@ -1,3 +1,9 @@
+package ListProblems;
+
+import ListProblems.ListNode;
+
+import static ListProblems.ListUtil.printList;
+
 /**
  * @author:linpeng
  * @date:20201204
@@ -32,32 +38,6 @@ public class RemoveLastKthNode {
         p.next = p.next.next;
 
         return head;
-    }
-
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
-    public static void printList(ListNode head) {
-        ListNode current = head;
-        while(current != null) {
-            System.out.print(current.val + "  ");
-            current = current.next;
-        }
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,8 @@
-import java.util.List;
+package ListProblems;
+
+import ListProblems.ListNode;
+
+import static ListProblems.ListUtil.printList;
 
 /**
   @author:linpeng
@@ -52,21 +56,6 @@ public class MergeTwoSortedLists {
         return res;
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
-    public static void printList(ListNode l1) {
-        ListNode list = l1;
-        while(list != null) {
-            System.out.print(list.val + "  ");
-            list = list.next;
-        }
-    }
     public static void main(String[] args) {
         ListNode l1 = new ListNode(0);
         ListNode l2 = new ListNode(1);

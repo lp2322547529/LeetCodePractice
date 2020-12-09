@@ -1,3 +1,7 @@
+package ListProblems;
+
+import ListProblems.ListNode;
+
 /**
  * @author:linpeng
  * @date:20201027
@@ -77,22 +81,5 @@ public class AddTwoNums {
         }
         System.out.println("链表：" + stringBuffer.toString());
         System.out.println("两数之和为：" + stringBuffer.reverse().toString());
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
