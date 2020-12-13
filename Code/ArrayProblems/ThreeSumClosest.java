@@ -1,3 +1,5 @@
+package ArrayProblems;
+
 import java.util.Arrays;
 
 /**

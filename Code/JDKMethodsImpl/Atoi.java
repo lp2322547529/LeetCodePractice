@@ -1,3 +1,5 @@
+package JDKMethodsImpl;
+
 import javax.xml.stream.events.Characters;
 
 /**

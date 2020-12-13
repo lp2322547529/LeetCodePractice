@@ -1,3 +1,5 @@
+package StringProblems;
+
 /**
  * @author:linpeng
  * @date:20201103
@@ -12,7 +14,6 @@ public class LongestPalindrome {
      *
      * Example
      * Input: s = "babad"
-     * Output: "bab"
      * Note: "aba" is also a valid answer.
      *
      * Mark

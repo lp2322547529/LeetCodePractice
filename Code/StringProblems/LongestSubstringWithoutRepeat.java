@@ -1,3 +1,5 @@
+package StringProblems;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,7 +45,6 @@ public class LongestSubstringWithoutRepeat {
             map.put(c, i + 1);
             res = Math.max(res, i - j + 1 );
         }
-
         return res;
     }
 
