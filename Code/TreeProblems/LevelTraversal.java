@@ -1,9 +1,7 @@
 package TreeProblems;
 
 import ListProblems.ListNode;
-
 import java.util.*;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * @author:linpeng
